@@ -1,0 +1,80 @@
+/* body {
+    font-family: Merriweather;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+header {
+    background-color: blue;
+    color: lightblue;
+}
+header a:link {
+    color: white;
+}
+header a:visited {
+    color: lightblue;
+}
+header a:hover {
+    background-color: white;
+    color: blue;
+}
+
+section {
+    background-color: lightblue;
+}
+h2, h3 {
+    font-family: Agbalumo;
+}
+h3.dut {
+    color:green; 
+}
+h3.master {
+    color:red; 
+}
+#formation h2 {
+    color: blue;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-family: Agbalumo;
+}
+
+.important {
+    color: pink;
+    background-color:black;
+}
+
+
+ */
+
+ article {
+    background-color: grey;
+ }
+ section {
+    background-color: lightblue;
+    border: 5px dotted red;
+ }
+ section#experience h2 {
+    color:red;
+ }
+ section h2 {
+    color:green;
+ }
+ article h2 {
+    color: yellow;
+ }
+
+ul {
+    list-style: none;
+}
+
+
+ .linkedin::before {
+    content: ' ';
+    display: inline-block;
+    background: url("/images/linkedin128.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
