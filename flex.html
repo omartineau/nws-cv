@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            main {
+                display: flex;
+                height: 300px;
+                flex-direction: row;
+                border: 2px dotted blue;
+                background-color: lightblue;
+                /* justify-content: flex-start; */
+                /* justify-content: flex-end; */
+                /* justify-content: center; */
+                /* justify-content: space-between; */
+                /* justify-content: space-around; */
+                /* justify-content: space-evenly; */
+                /* align-items: start; */
+                /* align-items: end; */
+                /* align-items: center; */
+                /* align-items: stretch; */
+                /* align-content: center; */
+                /* flex-wrap: wrap; */
+                gap: 1rem;
+            }
+            .gauche {
+                flex: 1;
+                /* height: 600px; */
+            }
+            .droite {
+                flex: 3;
+            }
+
+
+
+            header, section, footer {
+                padding: 10px;
+                width: auto;
+                height: auto; 
+                border: 2px dotted green;
+                background-color: greenyellow;
+                /* display: block; */
+                /* display: inline; */
+                /* display: inline-block; */
+                /* display: grid; */
+
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>header</h2>
+            <p>Bla bla</p>
+        </header>
+        <main>
+            <div class="gauche">
+                <section class="element">           
+                    <h2>Compétence</h2>
+                    <p>Bla bla</p>
+                </section>
+                <section class="element">           
+                    <h2>Softskills</h2>
+                    <p>Bla bla</p>
+                </section>
+            </div>
+            <div class="droite">
+                <section class="element">           
+                    <h2>Expérience</h2>
+                    <p>Bla bla</p>
+                </section>
+                <section class="element">           
+                    <h2>Formation</h2>
+                <p>Bla bla</p>
+                </section>
+            </div>
+  
+
+         </main>
+         <footer>
+            <h2>Hobbies</h2>
+            <p>Bla bla</p>
+         </footer>
+    </body>
+</html>
